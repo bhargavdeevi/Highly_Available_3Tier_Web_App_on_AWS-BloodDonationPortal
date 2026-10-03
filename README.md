@@ -21,3 +21,11 @@ This project demonstrates the deployment of a scalable, fault-tolerant 3-tier we
 1. Clone the repository:
    ```bash
    git clone [https://github.com/bhargavdeevi/ltibbhackathon.git](https://github.com/bhargavdeevi/ltibbhackathon.git)
+
+2. Configure your VPC, subnets, route tables, internet gateway, and NAT gateway.
+
+3. Launch your EC2 instances in public/private subnets and configure the Application Load Balancer and Auto Scaling Group.
+
+4. Set up your Amazon RDS MySQL database in the private subnet and import the database schema.
+
+5. Update your application configuration files with the database endpoint credentials.
